@@ -1,0 +1,132 @@
+.bg-img1 {
+    /* background-image: url("../../images/bg-home.png");
+    background-image: url(" ../../images/bg-home.png"); */
+    /* background-image: url("https://github.com/fauzan07/react-website/blob/master/src/assets/bg.jpg?raw=true"); */
+    background: linear-gradient(to bottom right, transparent 30%, black 100%), 
+    linear-gradient(to top left, transparent 30%, black 100%),
+     url("../../images/bg-home.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh !important;
+    position: relative;
+    z-index: 1;
+    padding-top: 220px ;
+    padding-left: 220px;
+    margin-top: 50px;
+    vertical-align: middle;
+
+}
+.floating {
+  transition: transform 0.3s ease-in-out;
+}
+
+.floating:hover {
+  transform: translateY(-10px); /* Moves the element up */
+}
+
+img{
+  vertical-align: middle;
+}
+.img-1{
+    width: 450px;
+    height: 270px;
+}
+body{
+    overflow-x: hidden;
+}
+.btn-1{
+    color: #f0a951;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px #f0a951;
+    
+    padding: 16px 40px;
+  }
+  
+   .btn-1:hover {
+    background: #323131;
+    color: #fff;
+  } 
+  /* .card-1{
+    height: 360px !important;
+    width:"350px" ;
+    height:'100px';
+    box-shadow: 4px 4px 5px gray;
+    border: 2px solid #333; /* Box-like border */
+
+    /* width: ; */
+  /* }  */
+  .card-2{
+    height: 600px !important;
+    box-shadow: 4px 4px 5px gray;
+    width:"350px" ;
+    /* height:"300px" !important; */
+    /* width: ; */
+  }
+  .card-2:hover{
+    transform: scale(1.05);
+  }
+  .card-txt1{
+    font-size: 30px !important;
+    font-weight: 300 !important;
+  }
+  .card-txt2{
+    font-size: 27px !important;
+    font-weight: 300 !important;
+
+  }
+  .card-txt3{
+    font-size: 18px;
+
+  }
+  .container2{
+    margin-top: 30px;
+  }
+  .img-card{
+    height: 400px !important;
+  }
+  .img-card-1{
+    height: 400px !important;
+  }
+  .services-border{
+    border: 3px solid #f0a951;
+    color: #f0a951;
+    height: 300px;
+    font-size: 30px;
+  }
+  .g-1{
+    margin: 0px 20px 0px 0px;
+    font-size: 25px;
+    
+  }
+  .g1-text{
+    padding-left: 0px;
+  }
+  .button-1{
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    color: #f0a951;
+    box-shadow: inset 0 0 0 3px #f0a951;
+    padding: 13px 35px;
+    font-size: 18px;
+    margin-left: 550px;
+  }
+  .button-1:hover{
+    background-color: #323131;
+    color: #f0a951;
+  }
+  .button-2{
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    color: #f0a951;
+    box-shadow: inset 0 0 0 3px #f0a951;
+    padding: 15px 38px;
+    font-size: 18px;
+    margin-left: -250px;
+  }
+  .button-2:hover{
+    background-color: #323131;
+    color: #f0a951;
+  }

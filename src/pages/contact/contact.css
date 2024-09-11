@@ -1,0 +1,45 @@
+.input{
+    /* padding: 20px 10px !important; */
+    /* width: 100% !important; */
+    height: 20%;
+    /* padding-left: 100px; */
+    /* padding: 15px 570px 15px 10px; */
+    border-radius: 5px;
+    border: #fff;
+}
+.bg-1 {
+    /* background: url("../../images/about-1.jpg"); */
+    /* background: url("../../images/about-1.jpg"); */
+    background-size: cover;
+    background: linear-gradient(to bottom right, transparent 30%, black 100%),
+      linear-gradient(to top left, transparent 30%, black 100%),
+      url("../../images/about-1.jpg");
+    background-position: center center;
+    padding-top: 260px;
+    position: relative;
+    width: 100%;
+    height: 100% !important;
+    z-index: -1;
+    opacity: 0.9;
+    padding-bottom: 180px;
+    /* background: rgba(0, 0, 0, 0.466); Adjust the opacity (0.5) to get the desired darkness */
+  
+  }
+  .button-2 {
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    color: #f0a951;
+    box-shadow: inset 0 0 0 3px #f0a951;
+    padding: 15px 38px;
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  
+  .button-2:hover {
+    background-color: #323131;
+    color: #f0a951;
+  }
+  .address{
+    margin-top: -50px;
+  }
